@@ -1,45 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Banner</title>
-    <link rel="stylesheet"
-    href="https://dashboard.handprint.tech/themes/front/default/assets/css/wgt/custom/v4/banner-badge.css" />
+<link rel="stylesheet" href="./style.css">
 </head>
-<style>
-    #section-announcement {
-        background: rgba(0, 0, 0, 0);
-        color: #343434;
-    }
 
-    .handprint-banner-badge.the-edit-ldn .handprint-badge,
-    .handprint-banner-badge.the-edit-ldn .custom-badge {
-        height: 180px !important;
-    }
-</style>
 <body>
-    <div class="PageContainer">
-        <div id="shopify-section-announcement" class="shopify-section">
-            <section id="section-announcement" data-section-id="announcement" data-section-type="announcement-bar">
-                <div class="AnnouncementBar">
-                    <div class="AnnouncementBar__Wrapper">
-                        <p class="AnnouncementBar__Content Heading">
-                            <!-- Handprint banner -->
-                        <div class="handprint-banner-badge the-edit-ldn "><input type="checkbox" class="cross"><span
-                                class="custom-badge-checkbox"></span>
-                            <div class="handprint-badge"><iframe class="custom-badge" style=""
-                                    src="https://dashboard.handprint.tech/ext/api/v4/widget-iframe/5888b7c9-e63d-4e34-b80a-74ee1acb3c05?platform=web"></iframe>
+    <div class="hp_banner_badge the edit ldn ocean-plastic">
+        <div class="frame style-iframe" style="background-color:#ffffff;border-color:#ffffff;">
+            <div class="center">
+                <div class="carousel">
+                    <div class="inner-div">
+                        <div class="top_div">
+                            <div class="container">
+                                <div class="custom-title animatedHeading">
+                                    <div class="slick-dupe"><span class="image-animation"><img src="https://d21ut6on1t31be.cloudfront.net/images/default/plastic-bag.png" title="plastic bag" alt="plastic bag" class="tree-image category-image-0" /></span></div>
+                                    <div class="slick-dupe"><span class="image-animation"><img src="https://d21ut6on1t31be.cloudfront.net/images/default/plastic-bottle.png" title="plastic bottle" alt="plastic bottle" class="tree-image category-image-1" /></span></div>
+                                </div>
+                            </div>
+                            <div class="middle_div w-150">
+                                <div id="odometer" class="odometer box-black"></div>
                             </div>
                         </div>
-                        </p>
+                        <div class="right_section  fullSlider ">
+                            <div class="container">
+                                <div class="custom-title animatedHeading">
+                                    <div class="slick-dupe"><span class="image-animation custom-desc0"> kg of plastic we've collected </span></div>
+                                    <div class="slick-dupe"><span class="image-animation custom-desc1"> Equivalent in plastic bottles </span></div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </section>
+            </div>
         </div>
     </div>
+    <script type="text/javascript" src="./js/hpbdg.js"></script>
+    <script type="text/javascript" src="./js/odometer.min.js"></script>
+
+
+    <script src="./js/script.js"></script>
 </body>
 
 </html>

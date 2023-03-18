@@ -1,0 +1,1209 @@
+@font-face {
+  font-family: Recoleta-medium;
+  src: url(/fonts/RecoletaAlt-Medium.ttf) format("truetype"),
+    url(/fonts/RecoletaAlt-Medium.woff2) format("woff2"),
+    url(/fonts/RecoletaAlt-Medium.woff) format("woff"),
+    url(/fonts/RecoletaAlt-Medium.eot) format("eot");
+}
+
+@font-face {
+  font-family: Recoleta-bold;
+  src: url(/fonts/RecoletaAlt-Bold.ttf) format("truetype"),
+    url(/fonts/RecoletaAlt-Bold.woff2) format("woff2"),
+    url(/fonts/RecoletaAlt-Bold.woff) format("woff"),
+    url(/fonts/RecoletaAlt-Bold.eot) format("eot");
+}
+
+@font-face {
+  font-family: Gilroy-light;
+  src: url(/fonts/Gilroy-Light.eot);
+  src: url(/fonts/Gilroy-Light.otf) format("opentype"),
+    url(/fonts/Gilroy-Light.woff2) format("woff2"),
+    url(/fonts/Gilroy-Light.woff) format("woff"),
+    url(/fonts/Gilroy-Light.ttf) format("truetype"),
+    url(/fonts/Gilroy-Light.svg) format("svg");
+}
+
+@font-face {
+  font-family: Twentieth-Century;
+  src: url(/fonts/Twentieth-Century.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: Gilroy-bold;
+  src: url(/fonts/Gilroy-Bold.eot);
+  src: url(/fonts/Gilroy-Bold.otf) format("opentype"),
+    url(/fonts/Gilroy-Bold.woff2) format("woff2"),
+    url(/fonts/Gilroy-Bold.woff) format("woff"),
+    url(/fonts/Gilroy-Bold.ttf) format("truetype"),
+    url(/fonts/Gilroy-Bold.svg) format("svg");
+}
+
+.hp_banner_badge .frame {
+  backdrop-filter: blur(16px);
+  border: 1px solid #cef8ec;
+  background-color: #cef8ec;
+}
+
+.hp_banner_badge .odometer.odometer-auto-theme.box-white .odometer-digit,
+.hp_banner_badge .odometer.odometer-theme-default.box-white .odometer-digit {
+  background-color: #fff !important;
+  color: #000 !important;
+}
+
+body {
+  margin: 0;
+}
+
+.d-block {
+  display: block;
+}
+
+.d-none {
+  display: none;
+}
+
+.hp_banner_badge.ocean-plastic .tree-image {
+  margin-top: 2px !important;
+  height: 30px;
+}
+
+.hp_banner_badge.bug.hub.llc.ocean-plastic {
+  display: none;
+}
+
+.hp_banner_badge .odometer.odometer-auto-theme,
+.hp_banner_badge .odometer.odometer-auto-theme .odometer-digit,
+.hp_banner_badge .odometer.odometer-theme-default,
+.hp_banner_badge .odometer.odometer-theme-default .odometer-digit {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+}
+
+.hp_banner_badge
+  .odometer.odometer-auto-theme
+  .odometer-digit
+  .odometer-digit-spacer,
+.hp_banner_badge
+  .odometer.odometer-theme-default
+  .odometer-digit
+  .odometer-digit-spacer {
+  display: inline-block;
+  vertical-align: middle;
+  visibility: hidden;
+}
+
+.hp_banner_badge
+  .odometer.odometer-auto-theme
+  .odometer-digit
+  .odometer-digit-inner,
+.hp_banner_badge
+  .odometer.odometer-theme-default
+  .odometer-digit
+  .odometer-digit-inner {
+  text-align: center;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+
+.hp_banner_badge .odometer.odometer-auto-theme .odometer-digit .odometer-ribbon,
+.hp_banner_badge
+  .odometer.odometer-theme-default
+  .odometer-digit
+  .odometer-ribbon {
+  display: block;
+}
+
+.hp_banner_badge
+  .odometer.odometer-auto-theme
+  .odometer-digit
+  .odometer-ribbon-inner,
+.hp_banner_badge
+  .odometer.odometer-theme-default
+  .odometer-digit
+  .odometer-ribbon-inner {
+  display: block;
+  -webkit-backface-visibility: hidden;
+}
+
+.hp_banner_badge .odometer.odometer-auto-theme .odometer-digit .odometer-value,
+.hp_banner_badge
+  .odometer.odometer-theme-default
+  .odometer-digit
+  .odometer-value {
+  display: block;
+}
+
+.odometer.odometer-auto-theme
+  .odometer-digit
+  .odometer-value.odometer-last-value,
+.odometer.odometer-theme-default
+  .odometer-digit
+  .odometer-value.odometer-last-value {
+  position: absolute;
+}
+
+.odometer.odometer-auto-theme.odometer-animating-up .odometer-ribbon-inner,
+.odometer.odometer-theme-default.odometer-animating-up .odometer-ribbon-inner {
+  -webkit-transition: -webkit-transform 2s;
+  -moz-transition: -moz-transform 2s;
+  -ms-transition: -ms-transform 2s;
+  -o-transition: -o-transform 2s;
+  transition: transform 2s;
+}
+
+.odometer.odometer-auto-theme.odometer-animating-up.odometer-animating
+  .odometer-ribbon-inner,
+.odometer.odometer-theme-default.odometer-animating-up.odometer-animating
+  .odometer-ribbon-inner {
+  -webkit-transform: translateY(-100%);
+  -moz-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  -o-transform: translateY(-100%);
+  transform: translateY(-100%);
+}
+
+.odometer.odometer-auto-theme.odometer-animating-down .odometer-ribbon-inner,
+.odometer.odometer-theme-default.odometer-animating-down
+  .odometer-ribbon-inner {
+  -webkit-transform: translateY(-100%);
+  -moz-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  -o-transform: translateY(-100%);
+  transform: translateY(-100%);
+}
+
+.hp_banner_badge.hp-alchemy-fine-home .frame,
+.hp_banner_badge.hp-alchemy-fine-home .frame .center {
+  background-color: #92c8c7;
+}
+
+.odometer.odometer-auto-theme.odometer-animating-down.odometer-animating
+  .odometer-ribbon-inner,
+.odometer.odometer-theme-default.odometer-animating-down.odometer-animating
+  .odometer-ribbon-inner {
+  -webkit-transition: -webkit-transform 2s;
+  -moz-transition: -moz-transform 2s;
+  -ms-transition: -ms-transform 2s;
+  -o-transition: -o-transform 2s;
+  transition: transform 2s;
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -o-transform: translateY(0);
+  transform: translateY(0);
+}
+
+.odometer.odometer-auto-theme,
+.odometer.odometer-theme-default {
+  line-height: 1.1em;
+}
+
+.odometer.odometer-auto-theme .odometer-value,
+.odometer.odometer-theme-default .odometer-value {
+  text-align: center;
+}
+
+.hp_banner_badge .frame {
+  overflow: hidden;
+  color: #333;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.hp_banner_badge.ldn .carousel,
+.hp_banner_badge.the-edit-ldn .carousel {
+  height: 38px;
+}
+
+.hp_banner_badge.ldn .inner-div,
+.hp_banner_badge.the-edit-ldn .inner-div {
+  height: 38px;
+}
+
+.ldn .custom-title .slick-slide,
+.the-edit-ldn .custom-title .slick-slide {
+  height: 25px;
+  padding: 5px 0;
+}
+
+.hp_banner_badge.macsback .slick-dupe span,
+.hp_banner_badge.macsback .powered_by_saas a,
+.hp_banner_badge.oliveankara .slick-dupe span,
+.hp_banner_badge.oliveankara .powered_by_saas a,
+.hp_banner_badge.kolleqtive .right_section .slick-dupe span,
+.hp_banner_badge.kolleqtive .powered_by_saas a {
+  color: #fff;
+}
+
+.hp_banner_badge.equi .slick-dupe span,
+.hp_banner_badge.equi .powered_by_saas a {
+  color: #000;
+}
+
+.hp_banner_badge.ldn .right_section,
+.hp_banner_badge.the-edit-ldn .right_section {
+  height: 40px;
+  line-height: 40px;
+  margin-top: -9px;
+}
+
+.hp_banner_badge .carousel {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  font-size: unset;
+  height: 50px;
+}
+
+.hp_banner_badge .carousel .pre {
+  position: absolute;
+  top: 0;
+  right: 52%;
+  height: 45px;
+  text-shadow: 1px 1px 1px #3c2254;
+  font-weight: 300;
+}
+
+.hp_banner_badge .carousel .change_outer {
+  height: 40px;
+  overflow: hidden;
+  float: left;
+  width: 28px;
+  margin-top: 5px;
+}
+
+.hp_banner_badge .carousel .title {
+  height: 40px;
+  overflow: hidden;
+  width: 150px;
+}
+
+.hp_banner_badge .carousel .title .element {
+  height: 35px;
+}
+
+.hp_banner_badge .carousel .title .element span {
+  font-size: 14px;
+  font-weight: 700;
+  font-family: Gilroy-bold;
+}
+
+.hp_banner_badge .carousel .change_outer .change_inner,
+.hp_banner_badge .carousel .title .change_inner {
+  position: relative;
+  -webkit-animation: 12s autoplay infinite ease-in-out;
+  animation: 12s autoplay infinite ease-in-out;
+  margin: -5px 0 0 0;
+}
+
+.hp_banner_badge .title {
+  text-align: left;
+}
+
+.hp_banner_badge .inner-div {
+  position: relative;
+  width: 100%;
+  display: flex;
+  height: 52px;
+  justify-content: center;
+}
+
+.hp_banner_badge .carousel .change_outer .element,
+.hp_banner_badge .carousel .title .element {
+  display: block;
+}
+
+.hp_banner_badge .middle_div .count {
+  position: relative;
+  -webkit-animation: 12s autoplay2 infinite ease-in-out;
+  animation: 12s autoplay2 infinite ease-in-out;
+}
+
+.hp_banner_badge.clean-water .tree-image {
+  height: 30px;
+  width: auto;
+  margin-left: 8px;
+  margin-top: 0;
+}
+
+.hp_banner_badge .tree-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+.hp_banner_badge.reforestation .tree-image {
+  margin-top: -1px;
+}
+
+.hp_banner_badge .right_section {
+  height: 52px;
+  margin-left: 10px;
+  margin-top: -5px;
+  line-height: 52px;
+}
+
+.hp_banner_badge .powered_by_saas {
+  margin-top: -25px;
+  text-align: left;
+}
+
+.hp_banner_badge .powered_by_saas a {
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 400;
+  color: rgba(29, 70, 72, 0.6);
+  font-family: Gilroy-light;
+}
+
+.hp_banner_badge .powered_by_saas a span {
+  font-weight: unset;
+  font-family: Recoleta-bold;
+}
+
+.hp_banner_badge .powered_by_saas img {
+  width: 14px;
+  height: 16px;
+  vertical-align: middle;
+  margin: 0 3px;
+}
+
+.hp_banner_badge .count {
+  width: 144px;
+}
+
+.hp_banner_badge .count ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 5px 0 0;
+  height: 52px;
+}
+
+.hp_banner_badge .count ul li {
+  display: inline-block;
+}
+
+.hp_banner_badge .count span {
+  font-size: 18px;
+  font-weight: 900;
+  font-family: Recoleta-bold;
+}
+
+.hp_banner_badge .count p {
+  margin: 0 -2px;
+  padding: 0;
+}
+
+.hp_banner_badge .count p.number {
+  background-color: #1d4648;
+  color: #fff;
+  border-radius: 4px;
+  width: 20px;
+  height: 30px;
+  line-height: 25px;
+  text-align: center;
+  margin-block-start: 0;
+  margin: 0 -2px;
+  margin-block-end: 0;
+}
+
+.hp_banner_badge .odometer.odometer-auto-theme .odometer-digit,
+.hp_banner_badge .odometer.odometer-theme-default .odometer-digit {
+  margin: 0 2px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 4px;
+  width: 20px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+}
+
+.hp_banner_badge.hp-alchemy-fine-home
+  .odometer.odometer-auto-theme
+  .odometer-digit,
+.hp_banner_badge.hp-alchemy-fine-home.odometer.odometer-theme-default
+  .odometer-digit {
+  margin: 0 3px;
+}
+
+.hp_banner_badge .odometer.odometer-auto-theme .odometer-digit,
+.odometer.odometer-theme-default .odometer-digit {
+  text-align: center;
+}
+
+.hp_banner_badge .odometer.odometer-auto-theme,
+.hp_banner_badge .odometer.odometer-theme-default {
+  width: auto;
+}
+
+.hp_banner_badge.hp-alchemy-fine-home .odometer.odometer-auto-theme,
+.hp_banner_badge.hp-alchemy-fine-home .odometer.odometer-theme-default {
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 26px;
+}
+
+.hp_banner_badge.hp-alchemy-fine-home .middle_div {
+  width: 120px;
+}
+
+.hp_banner_badge.hp-alchemy-fine-home .slick-slider {
+  padding-top: 2px;
+}
+
+.hp_banner_badge .odometer.odometer-auto-theme .odometer-digit .odometer-value,
+.hp_banner_badge
+  .odometer.odometer-theme-default
+  .odometer-digit
+  .odometer-value {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: Gilroy-bold;
+  width: 20px;
+  margin: auto;
+  text-align: center;
+  height: 30px;
+  line-height: 34px;
+  font-weight: unset;
+}
+
+.hp_banner_badge
+  .odometer.odometer-auto-theme
+  .odometer-digit
+  .odometer-digit-spacer,
+.odometer.odometer-theme-default .odometer-digit .odometer-digit-spacer {
+  text-align: center;
+  margin: auto;
+}
+
+.hp_banner_badge .middle_div {
+  width: auto;
+  display: flex;
+  align-items: center;
+}
+
+.animate {
+  transform: translate3d(0, 0, 0);
+  perspective: 1000;
+  filter: blur(0);
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  transform-origin: center left;
+}
+
+.left_section .custom-title .slick-current > span {
+  display: flex;
+  align-items: center;
+  height: 30px;
+}
+
+.animate--shrink,
+.custom-title .slick-current > span {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+}
+
+.animate--grow,
+.custom-title .slick-current + .slick-slide > span,
+.no-js .custom-title .slick-dupe:nth-child(2) > span {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+}
+
+.slick-slider {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  touch-action: pan-y;
+  tap-highlight-color: transparent;
+  padding-top: 0;
+}
+
+.hp_banner_badge .right_section .slick-list {
+  width: 400px;
+}
+
+.slick-list {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.slick-list:focus {
+  outline: 0;
+}
+
+.slick-list.dragging {
+  cursor: pointer;
+  cursor: hand;
+}
+
+.slick-slider .slick-list,
+.slick-slider .slick-track {
+  transform: translate3d(0, 0, 0);
+}
+
+.slick-track {
+  position: relative;
+  left: 0;
+  top: 0;
+  display: block;
+}
+
+.slick-track:after,
+.slick-track:before {
+  content: "";
+  display: table;
+}
+
+.slick-track:after {
+  clear: both;
+}
+
+.slick-loading .slick-track {
+  visibility: hidden;
+}
+
+.slick-slide {
+  float: left;
+  height: 100%;
+  min-height: 1px;
+  display: none;
+}
+
+[dir="rtl"] .slick-slide {
+  float: right;
+}
+
+.slick-initialized .slick-slide,
+.slick-slide img {
+  display: block;
+}
+
+.slick-slide.slick-loading img {
+  display: none;
+}
+
+.slick-slide.dragging img {
+  pointer-events: none;
+}
+
+.slick-loading .slick-slide {
+  visibility: hidden;
+}
+
+.slick-vertical .slick-slide {
+  display: block;
+  height: auto;
+  border: 0;
+  outline: 0;
+}
+
+.slick-vertical .slick-slide::-moz-selection,
+.slick-vertical .slick-slide::selection,
+.slick-vertical .slick-slide:active,
+.slick-vertical .slick-slide:focus {
+  outline: 0 !important;
+  border: 0 !important;
+  box-shadow: none;
+}
+
+.slick-arrow.slick-hidden {
+  display: none;
+}
+
+.slick-current {
+  position: relative;
+}
+
+.custom-title .slick-slide {
+  overflow: hidden;
+  padding: 10px 0;
+  height: 30px;
+}
+
+.right_section .custom-title .slick-slide {
+  height: 40px;
+}
+
+.custom-title [aria-hidden] {
+  transition: 1s;
+}
+
+.custom-title .slick-current > span {
+  box-sizing: border-box;
+  display: block;
+}
+
+.no-js .custom-title .slick-dupe:nth-child(2) > span {
+  padding: 1em;
+}
+
+.container {
+  margin: 0;
+  width: 40px;
+  background: 0 0;
+  padding: 0;
+}
+
+.hp_banner_badge .top_div .slick-dupe {
+  width: 40px !important;
+}
+
+.hp_banner_badge .top_div .slick-dupe span {
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+}
+
+.hp_banner_badge .slick-dupe {
+  width: 400px !important;
+}
+
+.slick-dupe span {
+  font-size: 14px;
+  font-weight: 700;
+  font-family: Gilroy-bold;
+  color: #1d4648;
+}
+
+.right_section .custom-title .slick-slide {
+  padding: 0;
+  text-align: left;
+}
+
+.odometer-formatting-mark {
+  margin: 0;
+  font-weight: 700;
+  font-family: Gilroy-bold;
+  font-size: 16px;
+}
+
+.hp_banner_badge.hp-alchemy-fine-home .tree-image {
+  width: 28px;
+  vertical-align: middle;
+  margin-left: 5px;
+  margin-top: -1px;
+}
+
+.hp_banner_badge.hp-alchemy-fine-home .right_section {
+  margin-top: 2px;
+  height: 24px;
+  line-height: 20px;
+  margin-left: 0;
+}
+
+.hp_banner_badge.hp-alchemy-fine-home .count p.number {
+  background-color: #fff;
+}
+
+.hp_banner_badge.hp-alchemy-fine-home
+  .odometer.odometer-auto-theme
+  .odometer-digit,
+.hp_banner_badge.hp-alchemy-fine-home
+  .odometer.odometer-theme-default
+  .odometer-digit {
+  background-color: #fff;
+  color: #6b6b6b;
+}
+
+.hp_banner_badge.hp-alchemy-fine-home
+  .odometer.odometer-auto-theme
+  .odometer-digit
+  .odometer-value,
+.hp_banner_badge.hp-alchemy-fine-home
+  .odometer.odometer-theme-default
+  .odometer-digit
+  .odometer-value {
+  font-size: 18px;
+  width: 16px;
+  height: 18px;
+  line-height: normal;
+  font-family: Twentieth-Century;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5px;
+}
+
+.hp_banner_badge.social-justice .category-image-0.tree-image {
+  margin-top: 0;
+}
+
+.hp_banner_badge.hp-alchemy-fine-home
+  .odometer.odometer-auto-theme
+  .odometer-digit,
+.hp_banner_badge.hp-alchemy-fine-home
+  .odometer.odometer-theme-default
+  .odometer-digit {
+  width: 16px;
+  height: 18px;
+  border-radius: 0;
+  line-height: 18px;
+}
+
+.hp_banner_badge.hp-alchemy-fine-home .right_section .slick-list {
+  width: 265px;
+}
+
+.hp_banner_badge.hp-alchemy-fine-home .right_section .container {
+  width: 200px;
+}
+
+.hp_banner_badge.hp-alchemy-fine-home .slick-dupe {
+  width: 300px !important;
+}
+
+.hp_banner_badge.hp-alchemy-fine-home .right_section .slick-dupe span {
+  font-size: 22px;
+  font-weight: 500;
+  font-family: Twentieth-Century;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -0.5px;
+  height: 20px;
+}
+
+.hp_banner_badge.hp-alchemy-fine-home .slick-dupe span {
+  height: 24px;
+}
+
+.hp_banner_badge.hp-alchemy-fine-home .odometer-formatting-mark {
+  font-size: 15px;
+  margin: 0 1px;
+  color: #6b6b6b;
+  font-family: Twentieth-Century;
+  vertical-align: bottom;
+}
+
+.hp_banner_badge.hp-alchemy-fine-home.reforestation
+  .tree-image.category-image-0 {
+  margin-top: 0;
+  height: 19px;
+  width: 18px;
+  margin-left: 23px;
+}
+
+.cyan-opaque {
+  background-color: #92c8c7;
+}
+
+.mercury-white {
+  background-color: #ebebeb;
+}
+
+.green-cyan {
+  background-color: #cef8ec;
+}
+
+.hp_banner_badge.hp-alchemy-fine-home .slick-slider .slick-list,
+.hp_banner_badge.hp-alchemy-fine-home .slick-slider .slick-track {
+  height: 20px !important;
+}
+
+.hp_banner_badge.hp-alchemy-fine-home .inner-div {
+  height: 26px;
+  align-items: center;
+}
+
+.hp_banner_badge.hp-alchemy-fine-home .odometer.odometer-auto-theme,
+.hp_banner_badge.hp-alchemy-fine-home .odometer.odometer-theme-default {
+  line-height: 13px;
+  font-size: 32px;
+}
+
+.hp_banner_badge.hp-alchemy-fine-home .custom-title .slick-slide {
+  height: 20px;
+  padding: 0;
+}
+
+.hp_banner_badge.hp-alchemy-fine-home .carousel,
+.hp_banner_badge.hp-alchemy-fine-home .center {
+  height: 26px;
+}
+
+.hp_banner_badge.hp-alchemy-fine-home .center {
+  display: flex;
+  align-items: center;
+}
+
+.hp_banner_badge .top_div {
+  display: flex;
+}
+
+.right_section.fullSlider .custom-title .slick-slide,
+.right_section.fullSlider .slick-list {
+  height: 56px !important;
+}
+
+.hp_banner_badge .right_section .slick-dupe span {
+  font-weight: unset;
+}
+
+.hp_banner_badge.ldn .tree-image,
+.hp_banner_badge.the-edit-ldn .tree-image {
+  height: 27px;
+}
+
+.hp_banner_badge.ldn .top_div .slick-dupe span,
+.hp_banner_badge.the-edit-ldn .top_div .slick-dupe span {
+  height: 27px;
+  width: 27px;
+}
+
+.hp_banner_badge.ldn
+  .odometer.odometer-auto-theme
+  .odometer-digit
+  .odometer-value,
+.hp_banner_badge.ldn
+  .odometer.odometer-theme-default
+  .odometer-digit
+  .odometer-value,
+.hp_banner_badge.the-edit-ldn
+  .odometer.odometer-auto-theme
+  .odometer-digit
+  .odometer-value,
+.hp_banner_badge.the-edit-ldn
+  .odometer.odometer-theme-default
+  .odometer-digit
+  .odometer-value {
+  font-size: 17px;
+  line-height: 33px;
+}
+
+.hp_banner_badge.ldn .right_section,
+.hp_banner_badge.the-edit-ldn .right_section,
+.hp_banner_badge.ldn .right_section .slick-list,
+.hp_banner_badge.ldn .right_section .slick-dupe {
+  width: 200px !important;
+}
+
+@media (min-width: 767px) {
+  .right_section.fullSlider .slick-dupe span {
+    line-height: 62px;
+  }
+  .hp_banner_badge.the-edit-ldn .right_section.fullSlider .slick-dupe span {
+    line-height: 50px;
+  }
+  .hp_banner_badge.ldn .right_section.fullSlider .slick-dupe span {
+    line-height: 57px;
+  }
+}
+
+@media (max-width: 767px) {
+  .hp_banner_badge.antidote .inner-div {
+    min-width: 255px !important;
+    margin: auto;
+  }
+  .hp_banner_badge.antidote .right_section .slick-list,
+  .hp_banner_badge.antidote .right_section .slick-dupe {
+    width: 130px !important;
+  }
+  .hp_banner_badge .slick-dupe,
+  .hp_banner_badge.zerrin .right_section .slick-list {
+    width: 140px !important;
+  }
+  .hp_banner_badge.macsback .right_section .slick-list {
+    width: 140px !important;
+  }
+  .hp_banner_badge.macsback .inner-div,
+  .hp_banner_badge.zerrin .inner-div {
+    min-width: 345px;
+  }
+  .hp_banner_badge.macsback .inner-div,
+  .hp_banner_badge.zerrin .inner-div {
+    margin-left: 0;
+  }
+  .hp_banner_badge.ocean-plastic .tree-image {
+    margin-top: 0 !important;
+  }
+  .hp_banner_badge .slick-dupe span {
+    font-size: 14px;
+  }
+  .hp_banner_badge .inner-div {
+    margin-left: 10px;
+  }
+  .hp_banner_badge .inner-div {
+    justify-content: center;
+  }
+  .hp_banner_badge .slick-dupe span {
+    font-size: 12px;
+  }
+  .hp_banner_badge.macsback .slick-dupe span,
+  .hp_banner_badge.zerrin .slick-dupe span {
+    font-size: 14px;
+  }
+  .hp_banner_badge .tree-image {
+    margin-top: 0 !important;
+  }
+  .hp_banner_badge.ocean-plastic .tree-image,
+  .hp_banner_badge.social-justice .tree-image {
+    margin-top: -1px;
+  }
+  .hp_banner_badge .tree-image {
+    height: 30px !important;
+  }
+  .hp_banner_badge .right_section.fullSlider,
+  .hp_banner_badge.ldn .right_section.fullSlider,
+  .hp_banner_badge.the-edit-ldn .right_section.fullSlider {
+    margin-top: 0;
+  }
+  .hp_banner_badge .carousel {
+    font-size: unset;
+    height: 55px;
+    line-height: 58px;
+  }
+  .hp_banner_badge .inner-div {
+    height: 48px;
+    line-height: 48px;
+    margin-left: 5px;
+  }
+  .hp_banner_badge.ldn .middle_div,
+  .hp_banner_badge.the-edit-ldn .middle_div {
+    line-height: 34px;
+  }
+  .hp_banner_badge.ldn .inner-div,
+  .hp_banner_badge.the-edit-ldn .inner-div {
+    line-height: 46px;
+  }
+  .hp_banner_badge.ldn .odometer.odometer-auto-theme .odometer-digit,
+  .hp_banner_badge.ldn .odometer.odometer-theme-default .odometer-digit,
+  .hp_banner_badge.the-edit-ldn .odometer.odometer-auto-theme .odometer-digit,
+  .hp_banner_badge.the-edit-ldn
+    .odometer.odometer-theme-default
+    .odometer-digit {
+    height: 30px;
+    line-height: 30px;
+  }
+  .hp_banner_badge.ldn
+    .odometer.odometer-auto-theme
+    .odometer-digit
+    .odometer-value,
+  .hp_banner_badge.ldn
+    .odometer.odometer-theme-default
+    .odometer-digit
+    .odometer-value,
+  .hp_banner_badge.the-edit-ldn
+    .odometer.odometer-auto-theme
+    .odometer-digit
+    .odometer-value,
+  .hp_banner_badge.the-edit-ldn
+    .odometer.odometer-theme-default
+    .odometer-digit
+    .odometer-value {
+    height: 30px;
+    line-height: 33px;
+    font-size: 16px;
+  }
+  .hp_banner_badge.ldn .right_section .slick-list,
+  .hp_banner_badge.the-edit-ldn .right_section .slick-list {
+    line-height: 36px;
+    height: 40px !important;
+  }
+  .hp_banner_badge.ldn .right_section,
+  .hp_banner_badge.the-edit-ldn .right_section {
+    margin-top: -6px;
+  }
+  .hp_banner_badge .right_section .slick-list,
+  .hp_banner_badge .slick-dupe {
+    width: 200px !important;
+  }
+  .hp_banner_badge .right_section {
+    margin-left: 0;
+  }
+  .hp_banner_badge .top_div {
+    width: auto;
+  }
+  .hp_banner_badge .right_section .slick-list {
+    height: 32px !important;
+    line-height: 44px;
+  }
+  .hp_banner_badge .right_section .slick-list {
+    height: 42px !important;
+  }
+  .hp_banner_badge .right_section .custom-title .slick-slide {
+    overflow: unset !important;
+  }
+  .hp_banner_badge .right_section .slick-dupe span {
+    display: inline-block;
+    line-height: 12px;
+    vertical-align: middle;
+  }
+  .hp_banner_badge .odometer.odometer-auto-theme .odometer-digit,
+  .hp_banner_badge .odometer.odometer-theme-default .odometer-digit {
+    height: 34px;
+    line-height: 38px;
+  }
+  .hp_banner_badge .powered_by_saas {
+    margin-top: -25px;
+  }
+  .hp_banner_badge .powered_by_saas a {
+    line-height: 10px;
+    font-size: 8px;
+  }
+  .hp_banner_badge .right_section {
+    height: 58px;
+    position: relative;
+  }
+  .hp_banner_badge.macsback .powered_by_saas {
+    margin-top: -33px;
+  }
+  .hp_banner_badge.zerrin .powered_by_saas {
+    margin-top: -29px;
+  }
+  .hp_banner_badge.macsback .right_section .slick-list,
+  .hp_banner_badge.zerrin .right_section .slick-list {
+    line-height: 56px;
+  }
+  .hp_banner_badge .right_section .container {
+    width: auto;
+  }
+  .top_div .container {
+    margin: 0 5px 0 0;
+  }
+  .right_section .container {
+    margin: auto;
+  }
+  .hp_banner_badge .right_section {
+    margin-left: 5px;
+  }
+  .hp_banner_badge
+    .odometer.odometer-auto-theme
+    .odometer-digit
+    .odometer-value,
+  .hp_banner_badge
+    .odometer.odometer-theme-default
+    .odometer-digit
+    .odometer-value {
+    height: 34px;
+    font-size: 20px;
+    line-height: 38px;
+  }
+  .hp_banner_badge.macsback .odometer.odometer-theme-default .odometer-inside {
+    align-items: center;
+  }
+  .hp_banner_badge.ldn .carousel,
+  .hp_banner_badge.the-edit-ldn .carousel {
+    line-height: 38px;
+  }
+}
+
+@media (max-width: 498px) {
+  .hp_banner_badge .right_section {
+    margin-top: -9px;
+  }
+  .hp_banner_badge.macsback .inner-div {
+    line-height: 55px;
+  }
+  .hp_banner_badge.macsback .powered_by_saas {
+    margin-top: -30px;
+  }
+  .hp_banner_badge.skylyfe .powered_by_saas {
+    margin-top: -34px;
+  }
+}
+
+@media (max-width: 405px) {
+  .top_div .container {
+    margin: 0;
+  }
+  .hp_banner_badge.ldn .right_section,
+  .hp_banner_badge.the-edit-ldn .right_section,
+  .hp_banner_badge.ldn .right_section .slick-list,
+  .hp_banner_badge.ldn .right_section .slick-dupe {
+    width: auto !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .top_div .container {
+    margin: 0 5px 0 0;
+  }
+  .hp_banner_badge .right_section .slick-list,
+  .hp_banner_badge .slick-dupe {
+    max-width: 200px;
+    width: unset !important;
+  }
+  .top_div .slick-dupe {
+    width: 40px !important;
+  }
+  .hp_banner_badge .odometer.odometer-theme-default .odometer-inside {
+    display: flex;
+  }
+  .hp_banner_badge .inner-div {
+    margin-left: 0;
+  }
+  .hp_banner_badge.reforestation .right_section .slick-dupe span {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 335px) {
+  .hp_banner_badge .right_section .slick-dupe span {
+    line-height: 11px;
+    margin-top: 7px;
+    font-size: 11px;
+  }
+  .hp_banner_badge .right_section .slick-dupe span {
+    margin-top: 0px;
+  }
+  .hp_banner_badge.ldn .right_section .slick-dupe span,
+  .hp_banner_badge.the-edit-ldn .right_section .slick-dupe span {
+    font-size: 11px;
+    margin-top: 0;
+  }
+  .hp_banner_badge .powered_by_saas a {
+    text-align: left;
+  }
+  .hp_banner_badge .powered_by_saas a {
+    font-size: 9px;
+  }
+  .hp_banner_badge .right_section .slick-list {
+    line-height: 50px;
+  }
+  .hp_banner_badge.macsback.reforestation .slick-dupe span,
+  .hp_banner_badge.zerrin .slick-dupe span {
+    font-size: 12px;
+  }
+  .hp_banner_badge.macsback .inner-div,
+  .hp_banner_badge.zerrin .inner-div {
+    min-width: 330px;
+  }
+}
+
+@media (max-width: 320px) {
+  .hp_banner_badge.ldn .right_section .slick-dupe span,
+  .hp_banner_badge.the-edit-ldn .right_section .slick-dupe span {
+    font-size: 10px;
+  }
+  .hp_banner_badge.ldn .powered_by_saas,
+  .hp_banner_badge.the-edit-ldn .powered_by_saas {
+    margin-left: -2px;
+  }
+}
