@@ -43,6 +43,7 @@
   backdrop-filter: blur(16px);
   border: 1px solid #cef8ec;
   background-color: #cef8ec;
+  padding: 12px 15px;
 }
 
 .hp_banner_badge .odometer.odometer-auto-theme.box-white .odometer-digit,
@@ -292,7 +293,7 @@ body {
 .hp_banner_badge .carousel .title .element span {
   font-size: 14px;
   font-weight: 700;
-  font-family: 'Gilroy-bold',sans-serif;
+  font-family: "Gilroy-bold", sans-serif;
 }
 
 .hp_banner_badge .carousel .change_outer .change_inner,
@@ -311,7 +312,7 @@ body {
   position: relative;
   width: 100%;
   display: flex;
-  height: 52px;
+  height: 52px;align-items: baseline;
   justify-content: center;
 }
 
@@ -469,7 +470,8 @@ body {
   .odometer-digit
   .odometer-value {
   font-size: 18px;
-  font-weight: 700;  font-family: 'Gilroy-bold',sans-serif;
+  font-weight: 700;
+  font-family: "Gilroy-bold", sans-serif;
 
   width: 20px;
   margin: auto;
@@ -687,7 +689,8 @@ body {
 
 .slick-dupe span {
   font-size: 14px;
-  font-weight: 700;  font-family: 'Gilroy-bold',sans-serif;
+  font-weight: 700 !important;
+  font-family: "Gilroy-bold", sans-serif;
 
   color: #1d4648;
 }
@@ -699,7 +702,8 @@ body {
 
 .odometer-formatting-mark {
   margin: 0;
-  font-weight: 700;  font-family: 'Gilroy-bold',sans-serif;
+  font-weight: 700;
+  font-family: "Gilroy-bold", sans-serif;
 
   font-size: 16px;
 }
@@ -912,7 +916,7 @@ body {
     line-height: 50px;
   }
   .hp_banner_badge.ldn .right_section.fullSlider .slick-dupe span {
-    line-height: 57px;
+    line-height: 44px;
   }
 }
 
