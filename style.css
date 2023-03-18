@@ -469,8 +469,8 @@ body {
   .odometer-digit
   .odometer-value {
   font-size: 18px;
-  font-weight: 700;
-  font-family: Gilroy-bold;
+  font-weight: 700;  font-family: 'Gilroy-bold',sans-serif;
+
   width: 20px;
   margin: auto;
   text-align: center;
@@ -687,8 +687,8 @@ body {
 
 .slick-dupe span {
   font-size: 14px;
-  font-weight: 700;
-  font-family: Gilroy-bold;
+  font-weight: 700;  font-family: 'Gilroy-bold',sans-serif;
+
   color: #1d4648;
 }
 
@@ -699,8 +699,8 @@ body {
 
 .odometer-formatting-mark {
   margin: 0;
-  font-weight: 700;
-  font-family: Gilroy-bold;
+  font-weight: 700;  font-family: 'Gilroy-bold',sans-serif;
+
   font-size: 16px;
 }
 
