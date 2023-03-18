@@ -292,7 +292,7 @@ body {
 .hp_banner_badge .carousel .title .element span {
   font-size: 14px;
   font-weight: 700;
-  font-family: Gilroy-bold;
+  font-family: 'Gilroy-bold',sans-serif;
 }
 
 .hp_banner_badge .carousel .change_outer .change_inner,
